@@ -13,5 +13,7 @@ class GaussianRational:
         return 'I'm crazy'
     def __stupid__(self):
         return 'This does not do anything coz it is stupid'
-        
+    def __conj__(self):
+        return GaussRational(self.x, -self.y)
+
 
